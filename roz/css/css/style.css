@@ -1,0 +1,103 @@
+
+.class {
+    color: #000cff;
+}
+#id {
+    color: #05ff00;
+}
+/***********************************/
+.class.class2 {
+    color: #00dfff;
+}
+/***********************************/
+* {
+    color: #3f3f3f;
+}
+/***********************************/
+[class=class-atribute] {
+    color: #ff33aa;
+    
+}
+[title=Hello] {
+    color: #147bff;
+}
+a[title='Hi'] {
+    color: #3fecff;
+}
+
+/*Псевдокласи і елементи*/
+p.class-first-letter::first-letter {
+    color: #c71785;
+}
+a.a-active:active {
+    color: #16ff1f;
+}
+a.a-hover:hover {
+    color: #4f1aff;
+}
+/*input*/
+input.input-checked:checked {
+    background: red;
+}
+input.input-disabled:disabled {
+    background: #000cff;
+}
+input.input-enabled:enabled {
+    background: #4f1aff;
+    color: #ffffff;
+}
+input.input-focus:focus {
+    background: red;
+    color: #ffffff;
+}
+/*first-child-and-last-child*/
+ul.first-child-and-last-child li {
+    color: #000000;
+}
+ul.first-child-and-last-child li:first-child {
+    color: chocolate;
+
+}
+ul.first-child-and-last-child li:last-child {
+    color: mediumvioletred;
+}
+
+ul.first-child-and-last-child > li:nth-child(2n) {
+    color: red;
+}
+/*block і inline-block*/
+ul.first-child-and-last-child li {
+    display: block;
+}
+ul.first-child-and-last-child.inline-block li {
+    display: inline-block;
+}
+/*Шрифти*/
+.font-family-arial {
+    font-family: Arial;
+}
+.font-family-chilanka {
+    font-family: Chilanka;
+}
+/*Block content*/
+article {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.block_content {
+    height: 200px;
+}
+#content {
+    width: 71%;
+    padding: 2%;
+    float: left;
+    background-color: rgba(5, 255, 0, 0.5);
+}
+#sidebar {
+    width: 21%;
+    padding: 2%;
+    float: right;
+    background-color: rgba(5, 255, 0, 0.1);
+}
+
+
